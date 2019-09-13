@@ -14,6 +14,17 @@ let gameStat = []
 //   document.body.appendChild(x);
 // }
 
+// document.addEventListener("click", event => {
+//   if (event.target.className === "players") {
+//     battle()
+//   }
+// })
+// function battle() {
+//   let heroes = document.createElement(`div`)
+//   heroes.className = `col s6`
+//   heroes.innerHTML = `<img src="assets/images/sombra-battle.png" alt="sombra" value="3">`
+//   document.getElementById(`battle`).append(heroes)
+// }
 
 // start game
 function game() {
@@ -37,10 +48,7 @@ function game() {
     current += playersArray[index]
     console.log("current:", current)
 
-    //   document.addEventListener("click", event => {
-    //     if (event.target.className === "players") {
-    //     }
-    // })
+
 
     // goal   / current  // verify if you win or lose  or keep playing
     if (current > goal) {
