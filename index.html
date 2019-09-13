@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Unit 4 Game - Overwatch Female Leads Battle</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <style>
+    .container {
+      margin-top: 20px;
+    }
+
+    .battle-row {
+      text-align: center;
+    }
+.img-wrapper {  
+  width: 400px;
+  height: 400px;
+  overflow: hidden; 
+transition: 0.3s;
+}
+
+.inner-img:hover {
+  transform: scale(1.1);
+}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row" id="header">
+      <nav>
+        <div class="nav-wrapper">
+          <span class="brand-logo center">Overwatch Female Leads Battle</span>
+        </div>
+      </nav>
+    </div>
+    <!-- player selection -->
+        <div class="row" id="player-row">
+    
+          <div class="col s3">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/ashe-p1.png" alt="ashe" class="players" value="0">
+                <span class="card-title">ASHE</span>
+                 <button class="players" id="ashe-p1" value="0"><a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">+</i></a></button>
+              </div>
+              <div class="card-content">
+                <p>Ashe quickly fires her rifle from the hip or uses her weapon’s aim-down sights to line up a high damage shot. She blasts
+                enemies by throwing dynamite, and her coach gun packs enough punch to put some distance between her and her foes.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s3">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/pharah-p5.png" alt="pharah" class="players" value="1">
+                <span class="card-title">PHARAH</span>
+                <button class="players" id="pharah-p5" value="1"><a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">+</i></a></button>
+              </div>
+              <div class="card-content">
+                <p>Pharah’s primary weapon launches rockets that deal significant damage in a wide blast radius.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s3">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/dva-p3.png" alt="dva" class="players" value="2">
+                <span class="card-title">D.VA</span>
+                <button class="players" id="dva-p3" value="2"><a class="btn-floating halfway-fab waves-effect waves-light red"
+                ><i class="material-icons">+</i></a></button>
+              </div>
+              <div class="card-content">
+                <p>D.Va’s mech is nimble and powerful—its twin Fusion Cannons blast away with autofire at short range, and she can use its
+                Boosters to barrel over enemies and obstacles, or deflect attacks with her projectile-dismantling Defense Matrix.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s3">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/sombra-p6.png" alt="sombra" value="3">
+                <span class="card-title">SOMBRA</span>
+              <button class="players" id="sombra-p6" value="3"> <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">+</i></a></button>
+              </div>
+              <div class="card-content">
+                <p>Stealth and debilitating attacks make Sombra a powerful infiltrator. Her ability to
+                Translocate and camouflage herself makes her a hard target to pin down.</p>
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+</div>
+
+<div class="battle-row">
+<a class="waves-effect waves-light btn-large" ><button>ATTACK</button></a>
+</div> 
+
+
+  <nav>
+    <div class="nav-wrapper">
+      <span class="brand-logo center" id="status"> </span>
+    </div>
+  </nav>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script> -->
+
+    <script src="./assets/javascript/game.js"></script>
+
+
+
+</body>
+
+</html>
