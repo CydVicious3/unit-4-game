@@ -14,6 +14,7 @@ let gameStat = []
 //   document.body.appendChild(x);
 // }
 
+
 // start game
 function game() {
   let goal = Math.floor(Math.random() * 100) + 40
